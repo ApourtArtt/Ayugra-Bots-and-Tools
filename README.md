@@ -34,3 +34,6 @@ bool AyugraApi::SendAsReceive(QString Packet)
 
 And now, you can do like some users are doing with BladeTigger's system : you can do bot, script, whatever you want.\
 You have a really complete exemple of how to interact with Ayugra, and so with Nostale.
+
+![Image of Ayugra PL](https://zupimages.net/up/20/50/zwrs.png)
+Download here : https://github.com/ApourtArtt/Ayugra-PacketLogger/releases/tag/1.0
