@@ -15,3 +15,6 @@ You can find a download link here : https://github.com/ApourtArtt/Ayugra-Bots-an
 
 - [Minigame Bot](https://github.com/ApourtArtt/Ayugra-Bots-and-Tools/tree/main/Minigame%20Bot)
 - [Fishing bot](https://github.com/ApourtArtt/Ayugra-Bots-and-Tools/tree/main/Fishing%20Bot)
+
+# C# example code :
+- [Eless54's sample](https://github.com/Eless54/AyugraAPI-C-Connection)
