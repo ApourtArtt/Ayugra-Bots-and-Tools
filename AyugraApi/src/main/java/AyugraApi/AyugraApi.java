@@ -2,7 +2,6 @@ package AyugraApi;
 
 import java.io.RandomAccessFile;
 
-
 public class AyugraApi {
     public AyugraApi(int AyugraId, AyugraCallback Callback)
     {
@@ -49,13 +48,9 @@ public class AyugraApi {
                 {
                     char type = buffer.charAt(0);
                     if (type == '>')
-                    {
                         callback.onReceivedPacket(buffer.substring(1));
-                    }
-                    if (type == '<')
-                    {
+                    else if (type == '<')
                         callback.onSentPacket(buffer.substring(1));
-                    }
                     buffer.setLength(0);
                 }
             }
