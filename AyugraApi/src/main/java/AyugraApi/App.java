@@ -20,5 +20,7 @@ public class App
         });
 
         api.Start();
+
+        api.SendAsSent("select 1"); // Or whatever
     }
 }

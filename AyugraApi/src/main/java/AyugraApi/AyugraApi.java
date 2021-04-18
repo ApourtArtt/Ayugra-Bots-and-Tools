@@ -26,11 +26,20 @@ public class AyugraApi {
         started = false;
     }
 
-    public void SendPacket(String packet)
+    public void SendAsSent(String packet)
     {
         try
         {
-            pipe.write(packet.getBytes());
+            pipe.write(("<" + packet).getBytes());
+        }
+        catch (Exception e) { e.printStackTrace(); }
+    }
+
+    public void SendAsRcvd(String packet)
+    {
+        try
+        {
+            pipe.write((">" + packet).getBytes());
         }
         catch (Exception e) { e.printStackTrace(); }
     }
