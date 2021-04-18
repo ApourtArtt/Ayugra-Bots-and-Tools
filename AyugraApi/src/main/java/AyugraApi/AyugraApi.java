@@ -30,7 +30,7 @@ public class AyugraApi {
     {
         try
         {
-            pipe.write(("<" + packet).getBytes());
+            pipe.write(("<" + packet + "\n").getBytes());
         }
         catch (Exception e) { e.printStackTrace(); }
     }
@@ -39,7 +39,7 @@ public class AyugraApi {
     {
         try
         {
-            pipe.write((">" + packet).getBytes());
+            pipe.write((">" + packet + "\n").getBytes());
         }
         catch (Exception e) { e.printStackTrace(); }
     }
